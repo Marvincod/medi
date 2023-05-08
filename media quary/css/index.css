@@ -1,0 +1,27 @@
+.dis{
+     display: none;
+margin-bottom: 40px;}
+
+#in {width: 120px;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+}
+#on{width: 110px;
+    height: 5vh;
+    background-color: red;
+    color: white;
+}
+#img{
+    background-size: cover;
+    height: 150vh;
+    background-image: url('../image/pupury.jpg');
+    background-repeat: no-repeat;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .dis{display: block;}
+    #img{display: none;}
+
+    }
+
